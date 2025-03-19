@@ -9,16 +9,21 @@ const Navbar = () => {
     return (
      // fill in the rest here!
      // add Home and NotHome, including links (after routing established)
-     <nav className='navbar'>
-        <ul>
-            <li>
-                <Link to='/Home'>Home</Link>
-            </li>
-            <li>
-                <Link to='/NotHome'>NotHome</Link>
-            </li>
-        </ul>
-     </nav>
+     <div>
+        
+        <nav className='navbar'>
+            <h1>My React Website</h1>
+            <ul>
+                <li>
+                    <Link to='/Home'>Home</Link>
+                </li>
+                <li>
+                    <Link to='/NotHome'>NotHome</Link>
+                </li>
+            </ul>
+        </nav>
+     </div>
+     
     );
   };
   

@@ -14,10 +14,15 @@
 }
 
 .navbar a {
-    color: white;
+    color: navy;
     text-decoration: none;
 }
 
 .navbar a:hover {
+    color: aliceblue;
     text-decoration: underline;
+}
+.navbar h1 {
+    text-align: left;
+    color: blueviolet;
 }
